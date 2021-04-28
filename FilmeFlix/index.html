@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Filmesflix</title>
+        <meta http-equiv="content-type" content="text/html"  charset="UTF-8">
+        <meta http-equiv="content-language" content="pt-br">
+        <meta name="author" content="Cesar Fabiano Santos da Silva">
+        <meta name="reply-to" content="cesar.fabiano.hu3@outlook.com    ">
+        <meta name="description" content="Filmes, s&eacute;ries e muito mais. Sem limites. Assista onde quiser. Cancele quando quiser. Pronto para assistir?">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link rel="stylesheet" href="css/estilo.css" type="text/css">
+        <link rel="icon" href="img/l.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="js/scripts.js"></script> 
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+    
+    
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<!--script type="text/javascript" src="engine1/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
+    <body>
+        <header id="topo">
+            <a href=""><figure id="logo"></figure></a>
+            <button id="btn_menu"><a href="#menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a></button>
+            <nav id="menu">
+                <a id="btn_fechar" href="#">X</a>
+                <ul>
+                    <a href="index.html"><li>Início</li></a>
+                    <a href="series.html"><li>Séries</li></a>
+                    <a href="filmes.html"><li>Filmes</li></a>
+                    <a href="destaques.html"><li>Destaques</li></a>
+                    <a href="minhaLista.html"><li>Minha lista</li></a>
+                </ul>
+            </nav>
+            <nav id="menu_acesso_rapido">
+                <a id="btn_fechar" href="#">X</a>
+                <ul>
+                    <a href="#minhaLista"><li>Minha lista</li></a>
+                    <a href="#popularNaFilmesflix"><li>Popular na Filmeflix</li></a>
+                    <a href="#destaquesDaSemanda"><li>Destaques da semana</li></a>
+                    <a href="#emAlta"><li>Em alta</li></a>
+                    <a href="#seriesPremiadas"><li>Séries premiadas</li></a>
+                    <a href="#filmes"><li>Filmes</li></a>
+                    <a href="#series"><li>Séries</li></a>
+                    <a href="#documentario"><li>Documentários</li></a>
+                </ul>
+            </nav>
+        </header> 
+        <section id="banner">
+            <div id="rodape_banner"></div>
+            <div id="wowslider-container0">
+                <div class="ws_images">
+                    <ul>
+                        <li><img src="data0/images/chamado.jpg" alt="chamado" title="chamado" id="wows0_0"/></li>
+                        <li><img src="data0/images/godzilla.jpg" alt="godzilla" title="godzilla" id="wows0_1"/></li>
+                        <li><img src="data0/images/ligadajustica.jpg" alt="ligaDaJustica" title="ligaDaJustica" id="wows0_2"/></li>
+                        <li><img src="data0/images/peakeblinders.jpg" alt="slider" title="peakeBlinders" id="wows0_3"/></li>
+                        <li><img src="data0/images/vingadores.jpg" alt="vingadores" title="vingadores" id="wows0_4"/></li>
+                    </ul>
+                </div>
+                <div class="ws_shadow"></div>
+            </div>
+            <script type="text/javascript" src="engine0/wowslider.js"></script>
+            <script type="text/javascript" src="engine0/script.js"></script>
+            <!-- End WOWSlider.com HEAD section --> 
+        </section>
+        <!-- FILME NORMAL -->
+        <main>
+            <div id="titulo">
+                <h2 id="minhaLista">Minha lista</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img name="O Chamado" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/chamado.jpg" alt="A jornalista Rachel Keller decide investigar a morte de sua sobrinha e descobre que quatro adolescentes morreram misteriosamente sete dias depois de assistir a um vídeo com imagens assustadoras. Agora ela tenta solucionar o mistério e impedir que a profecia se realize, já que ela e seu filho também assistiram ao vídeo.">
+                </figure>
+                <figure class="conteudo">
+                    <img name="Godzilla King of the Monsters" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/godzilla.jpg" alt="Membros da agência Monarch enfrentam monstros gigantescos, incluindo o poderoso Godzilla, que entra em choque com Mothra, Rodan e seu maior inimigo, King Ghidorah, o monstro de três cabeças. Essas antigas superespécies disputam a supremacia, deixando a própria existência da humanidade em risco.">
+                </figure>
+                <figure class="conteudo">
+                    <img name="Liga da Justiça" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/ligadajustica.jpg" alt="Impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman, Bruce Wayne convoca sua nova aliada Diana Prince para o combate contra um inimigo ainda maior, recém-despertado. Juntos, Batman e Mulher-Maravilha buscam e recrutam com agilidade um time de meta-humanos, mas mesmo com a formação da liga de heróis sem precedentes, poderá ser tarde demais para salvar o planeta de um catastrófico ataque.">
+                </figure>
+                <figure class="conteudo">
+                    <img name="Peaky Blinders" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/peakeblinders.jpg" alt="Os Peaky Blinders são uma organização criminosa de origem cigana que se passa na cidade de Birmingham, Inglaterra, em 1919, formada vários meses após o final da Primeira Guerra Mundial (1914–1918). A história é centrada na ambição do líder da gangue inglesa, Thomas 'Tommy' Shelby (Cillian Murphy).">
+                </figure>
+                <figure class="conteudo">
+                    <img name="Os Vingadores" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/vingadores.jpg" alt="Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="popularNaFilmesflix">Popular na Filmeflix</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img name="47 Ronins" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/47roninPop.jpg" alt="Um grupo de samurais banidos deseja reaver sua honra a partir de uma vingança contra o traiçoeiro Lorde Kira, responsável pela morte do mestre deles. O mais incomodado do grupo é Kai, que passa a ser questionado ao se apaixonar pela filha do mestre.">
+                </figure>
+                <figure class="conteudo">
+                    <img name="Jurassic Park O mundo perdido" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/jurasqueparquePop.jpg" alt="ohn Hammond chama o teórico do caos Ian Malcolm à sua casa para dar algumas notícias aterradoras: enquanto quase tudo em Jurassic Park foi destruído, seus engenheiros parecem ter um segundo local, onde outros dinossauros estão escondidos. Aparentemente, os dinossauros na segunda ilha estão vivos e bem e até se acasalando. Hammond quer que Malcolm observe e documente as criaturas antes que mercenários cheguem até eles.">
+                </figure>
+                <figure class="conteudo">
+                    <img name="O mentiroso" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/oMentirosoPop.jpg" alt="O inescrupuloso advogado de Los Angeles Fletcher Reede ama o filho Max, mas a sua incapacidade de manter promessas e as mentiras compulsivas que conta causam problemas entre os dois e a ex-mulher Audrey. Cansado das mentiras do pai, Max faz um desejo antes de soprar as velinhas do seu bolo de aniversário: ele quer que o pai só diga a verdade nas próximas 24 horas. Quando o pedido de Max se torna realidade, o mundo de Fletcher começa a se transformar em um caos.">
+                </figure>
+                <figure class="conteudo">
+                    <img name="O primeiro Homem" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/oPrimeiroHomiPop.jpg" alt="O astronauta norte-americano Neil Armstrong embarca em uma jornada histórica para se tornar o primeiro homem a pisar na Lua, em 1969. Os sacrifícios e custos de toda uma nação durante uma das mais perigosas missões na história das viagens espaciais.">
+                </figure>
+                <figure class="conteudo">
+                    <img name="Shrek" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/shrekPop.jpg" alt="Era uma vez um pântano distante, onde vivia um ogro chamado Shrek. De repente, seu sossego é interrompido pela invasão de personagens de contos de fadas que foram banidos de seu reino pelo maldoso Lorde Farquaad. Determinado a salvar o lar das pobres criaturas, e também o dele, Shrek faz um acordo com Farquaad e parte para resgatar a princesa Fiona. Resgatar a princesa pode não ser nada comparado com seu segredo profundo e sombrio.">
+                </figure>
+            </div>
+            <!-- FILME DESTAQUES -->
+            <div id="titulo">
+                <h2 id="destaquesDaSemanda">Destaques da semana</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img src="imgFilmes/demonSDestaque.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img src="imgFilmes/shrekDestaque.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img src="imgFilmes/goosebumpsDestaque.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img src="imgFilmes/hackerDestaque.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img src="imgFilmes/jumanjiDestaque.jpg">
+                </figure>
+            </div>
+            <!-- FILME NORMAL -->
+            <div id="titulo">
+                <h2 id="emAlta">Em alta</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Batman O cavaleiro das trevas" alt="Com a ajuda de Jim Gordon e Harvey Dent, Batman tem mantido a ordem na cidade de Gotham. Mas um jovem e anárquico criminoso conhecido como Coringa ganha força e decide instaurar um verdadeiro caos na cidade. O justiceiro será testado psicologicamente e fisicamente como nunca fora antes em um confronto bastante pessoal. Cabe a Batman encontrar uma maneira de deter o sádico vilão antes que mais vidas sejam perdidas." src="imgFilmes/batman.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Homem aranha 3" alt="O relacionamento entre Peter Parker e Mary Jane parece estar dando certo, mas outros problemas começam a surgir. A roupa de Homem-Aranha torna-se preta e acaba controlando Peter - apesar de aumentar seus poderes, ela revela e amplia o lado obscuro de sua personalidade. Com isso, os vilões Venom e Homem-Areia tentam destruir o herói." src="imgFilmes/homiAranha3.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Suits" alt="Suits se passa em um escritório de advocacia fictício na cidade de Nova Iorque. A série foca nos personagens Mike Ross, interpretado por Patrick J. Adams, que inicialmente trabalha como associado legal para Harvey Specter, interpretado por Gabriel Macht, apesar de Mike nunca ter frequentado a faculdade de direito." src="imgFilmes/suits.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="The Flash" alt="Após testemunhar o estranho assassinato de sua mãe e a injusta acusação de seu pai pelo crime, Barry Allen fica sob os cuidados do detetive Joe West e sua filha Iris West. ... E então, associado por alguns amigos próximos que guardam seu segredo, Barry adquire uma nova personalidade conhecida como Flash." src="imgFilmes/theFlash.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Twister" alt="Enquanto a tempestade mais devastadora das últimas décadas se aproxima, a professora universitária Jo Harding e uma equipe de alunos com poucos recursos preparam o protótipo de Dorothy, um dispositivo inovador que coleta de dados de tornados, criado por seu ex-marido Bill. Quando Harding diz a Bill que Dorothy está pronto para testes, e que seu rival Jonas Miller roubou sua ideia, Bill se junta à equipe para uma última missão na busca de tornados." src="imgFilmes/twister.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="seriesPremiadas">Series premiadas</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="The Flash" alt="Após testemunhar o estranho assassinato de sua mãe e a injusta acusação de seu pai pelo crime, Barry Allen fica sob os cuidados do detetive Joe West e sua filha Iris West. ... E então, associado por alguns amigos próximos que guardam seu segredo, Barry adquire uma nova personalidade conhecida como Flash." src="imgFilmes/theFlash.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Suits" alt="Suits se passa em um escritório de advocacia fictício na cidade de Nova Iorque. A série foca nos personagens Mike Ross, interpretado por Patrick J. Adams, que inicialmente trabalha como associado legal para Harvey Specter, interpretado por Gabriel Macht, apesar de Mike nunca ter frequentado a faculdade de direito." src="imgFilmes/suits.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="The Walking Dead" alt="Baseada em uma HQ, The Walking Dead conta a história de um grupo de sobreviventes, liderados pelo xerife Rick Grimes (Andrew Lincoln), após um apocalipse zumbi. Toda a população da Terra é infectada por um vírus misterioso que transforma os mortos em zumbis." src="imgFilmes/twd.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Grey's Anatomy" alt="Com narração da médica Meredith Grey (Ellen Pompeo), o drama hospitalar apresenta a vida profissional e pessoal de cirurgiões e estagiários de um hospital na cidade de Seattle. ... A série é uma das mais vistas da TV dos EUA e tem a assinatura de Shonda Rhimes, a rainha do drama." src="imgFilmes/greisanatomi.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Modern Family" alt="Jay Pritchett (Ed O'Neill) é um homem mais velho que se casa com a latina Glória (Sofía Vergara), muitos anos mais nova que ele. Os dois moram com o filho dela, Manny (Rico Rodriguez), e convivem diariamente com os filhos do primeiro casamento de Jay: Caire (Julie Bowen) e Mitchell (Jesse Tyler Ferguson)." src="imgFilmes/modernfamili.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="filmes">Filmes</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="A Menina e o Leão" alt="Mia é uma jovem de 14 anos que desde pequena tem uma profunda amizade com Charlie, um leão branco da fazenda de sua família. Quando seu pai decide vender Charlie para caçadores de troféus, Mia não vê outra opção além de fugir com o leão e salvá-lo." src="imgFilmes/aMeninaEOLeao.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Kardec" alt="Acompanhe a jornada de Allan Kardec, nascido Hypolite LeonDenizard Rivail, desde quando trabalhava como educador em Paris até iniciar o processo de decodificação do espiritismo ao lado de sua esposa, Amélie-Gabrielle Boudet." src="imgFilmes/kardec.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Cred 2" alt="Adonis enfrenta o maior desafio de sua vida: um inimigo que está ligado ao passado de sua família. Ao lado de Rocky Balboa, eles enfrentam o passado para descobrir pelo quê vale a pena lutar." src="imgFilmes/cred2.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Rock 2" alt="Após a luta contra Apollo Creed, Rocky promete à sua esposa largar os ringues. Mas os fãs de boxe insistem em uma revanche entre os dois pugilistas. Sem dinheiro, Rocky se vê obrigado a aceitar o desafio e recebe a benção da esposa para lutar. Agora o lutador deve se preparar para o combate do século e decide treinar intensamente, sonhando apenas em terminar a luta sem ser nocauteado pelo campeão." src="imgFilmes/rock2.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Os Ultimos Cavaleiros" alt="Raiden é um guerreiro caído que deve enfrentar um corrupto e sádico governante para vingar seu mestre desonrado, Bartok." src="imgFilmes/ultimosCavalheiros.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="series">Series</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Peaky Blinders" alt="Os Peaky Blinders são uma organização criminosa de origem cigana que se passa na cidade de Birmingham, Inglaterra, em 1919, formada vários meses após o final da Primeira Guerra Mundial (1914–1918). A história é centrada na ambição do líder da gangue inglesa, Thomas 'Tommy' Shelby (Cillian Murphy)." src="imgFilmes/peakeblinders.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Grey's Anatomy" alt="Com narração da médica Meredith Grey (Ellen Pompeo), o drama hospitalar apresenta a vida profissional e pessoal de cirurgiões e estagiários de um hospital na cidade de Seattle. ... A série é uma das mais vistas da TV dos EUA e tem a assinatura de Shonda Rhimes, a rainha do drama." src="imgFilmes/greisanatomi.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="The Flash" alt="Após testemunhar o estranho assassinato de sua mãe e a injusta acusação de seu pai pelo crime, Barry Allen fica sob os cuidados do detetive Joe West e sua filha Iris West. ... E então, associado por alguns amigos próximos que guardam seu segredo, Barry adquire uma nova personalidade conhecida como Flash." src="imgFilmes/theFlash.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Suits" alt="Suits se passa em um escritório de advocacia fictício na cidade de Nova Iorque. A série foca nos personagens Mike Ross, interpretado por Patrick J. Adams, que inicialmente trabalha como associado legal para Harvey Specter, interpretado por Gabriel Macht, apesar de Mike nunca ter frequentado a faculdade de direito." src="imgFilmes/suits.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="The Walking Dead" alt="Baseada em uma HQ, The Walking Dead conta a história de um grupo de sobreviventes, liderados pelo xerife Rick Grimes (Andrew Lincoln), após um apocalipse zumbi. Toda a população da Terra é infectada por um vírus misterioso que transforma os mortos em zumbis." src="imgFilmes/twd.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="documentario">Documentarios</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="O Universo" alt="Efeitos de computação gráfica de ponta mostram o nosso sistema solar, mundos alienígenas e galáxias distantes conforme os mistérios do universo são explorados." src="imgFilmes/oUniverso.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Tempo do Tempo" alt="Vivemos um tempo diferente. Corremos sempre, corremos sem motivo, corremos por nada. Como se o tempo tivesse ficado mais rápido. Tudo sugere velocidade, urgência. Mas afinal de contas, por que o tempo parece tão curto? O foco principal de 'Quanto Tempo o Tempo Tem' é a questão do tempo e da falta dele no mundo contemporâneo. A diretora do documentário faz uma profunda reflexão sobre tempo, civilização e o futuro da existência." src="imgFilmes/tempoDoTempo.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Maçonaria" alt="Maçonaria consiste em organizações fraternas que remontam às fraternidades locais de pedreiros que, a partir do final do século XIV, regulamentavam as qualificações de sua profissão e sua interação com autoridades e clientes." src="imgFilmes/maconaria.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Guerra do Brasil" alt="Esta série documental detalha como o Brasil foi formado por séculos de conflito armado, desde os primeiros conquistadores até a violência nos dias de hoje." src="imgFilmes/guerrasDoBrasil.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Serial Killer" alt="Quando um médico é preso por uma série de assassinatos chocantes, sua esposa decide cometer um crime semelhante para provar que ele é inocente. Assista o quanto quiser. Jacqueline Fernandez, Manoj Bajpayee e Mohit Raina estrelam este thriller do roteirista e diretor Shirish Kunder." src="imgFilmes/serialkiller.jpg">
+                </figure>
+            </div>
+        </main>
+        <footer id="rodape">
+            <div id="redes_sociais">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.google.com/" target="_blank"><i class="fa fa-google fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.outlook.com/" target="_blank"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+            </div>
+            <p>
+                Copyright &copy; WebMaster 2020. Todos os direitos reservados.
+            </p>
+            <div id="links">
+                <div id="conteudo_esquerda">
+                    <p>
+                       Link's de nossos parceiros:
+                    </p>
+                    <p>
+                        <a href="https://www.netflix.com" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> https://www.netflix.com</a>
+                    </p>
+                    <p>
+                        <a href="https://globofilmes.globo.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> https://globofilmes.globo.com</a>
+                    </p>
+                </div>
+                <div>
+                    <a href="index.html"><img src="img/logo4.png"></a>
+                </div>
+                <div> 
+                    <p>
+                        Desenvolvido por: 
+                    </p>                   
+                    <p>
+                        <a href="https://github.com/CesarFabiano" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> Cesar Fabiano Santos da Silva</a>
+                    </p>
+                </div>
+            </div>
+        </footer> 
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Novidades do mês</h2>
+            </div>
+            <div class="modal-body">
+            	<div id="wowslider-container1">
+                    	<div class="ws_images">
+                            <ul>
+                        		<li>
+                                    <img src="data1/images/jumanjidestaque.jpg" alt="jumanjiDestaque" title="jumanjiDestaque" id="wows1_0"/>
+                                </li>
+                        		<li>
+                                    <img src="data1/images/ligadadc.jpg" alt="ligaDaDC" title="ligaDaDC" id="wows1_1"/>
+                                </li>
+                        		<li>
+                                    <img src="data1/images/malevola.jpg" alt="carousel jquery" title="malevola" id="wows1_2"/>
+                                </li>
+                        		<li>
+                                    <img src="data1/images/unfortunate.jpg" alt="unfortunate" title="unfortunate" id="wows1_3"/>
+                                </li>
+                        	</ul>
+                        </div>
+                    <div class="ws_shadow"></div>
+            	</div>	
+            	<script type="text/javascript" src="engine1/wowslider.js"></script>
+            	<script type="text/javascript" src="engine1/script.js"></script>
+	       <!-- End WOWSlider.com BODY section -->
+            </div>
+            <div class="modal-footer">
+              <h3>Não perca essas novidades. Corre lá!</h3>
+            </div>
+          </div>
+        </div> 
+
+        <div id="modal_filme" class="modal_filme">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span onclick="fecharModal();" id="close_filme" class="close">&times;</span>
+              <h2 id="tituloFilme"></h2>
+            </div>
+            <div class="modal-body">
+                <img src="" id="imgemFilme"/>
+            </div>
+            <div class="modal-footer">
+              <h3 id="DescricaoFilme"></h3>
+            </div>
+          </div>
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+        </script>    
+    </body>
+</html>

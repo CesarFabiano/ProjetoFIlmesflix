@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Filmesflix</title>
+        <meta http-equiv="content-type" content="text/html"  charset="UTF-8">
+        <meta http-equiv="content-language" content="pt-br">
+        <meta name="author" content="Cesar Fabiano Santos da Silva">
+        <meta name="reply-to" content="cesar.fabiano.hu3@outlook.com    ">
+        <meta name="description" content="Filmes, s&eacute;ries e muito mais. Sem limites. Assista onde quiser. Cancele quando quiser. Pronto para assistir?">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link rel="stylesheet" href="css/estilo.css" type="text/css">
+        <link rel="icon" href="img/l.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine0/style.css" />
+    <script type="text/javascript" src="engine0/jquery.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    </head>
+    <body>
+        <header id="topo">
+            <a href="index.html"><figure id="logo"></figure></a>
+            <button id="btn_menu"><a href="#menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a></button>
+            <nav id="menu">
+                <a id="btn_fechar" href="#">X</a>
+                <ul>
+                    <a href="index.html"><li>Início</li></a>
+                    <a href="series.html"><li>Séries</li></a>
+                    <a href="filmes.html"><li>Filmes</li></a>
+                    <a href="destaques.html"><li>Destaques</li></a>
+                    <a href="minhaLista.html"><li>Minha lista</li></a>
+                </ul>
+            </nav>
+            <nav id="menu_acesso_rapido">
+                <a id="btn_fechar" href="#">X</a>
+                <ul>
+                    <a href="#minhaLista"><li>Minha lista</li></a>
+                    <a href="#popularNaFilmesflix"><li>Popular na Filmeflix</li></a>
+                    <a href="#filmesEmDestaque"><li>Filmes em destaque</li></a>
+                    <a href="#emAlta"><li>Em alta</li></a>
+                    <a href="#filmesPremiados"><li>Filmes premiados</li></a>
+                    <a href="#lancamentos"><li>Lançamentos</li></a>
+                    <a href="#comedia"><li>Comédia</li></a>
+                    <a href="#terror"><li>Terror</li></a>
+                </ul>
+            </nav>
+        </header> 
+        <section id="banner">
+            <div id="rodape_banner">Filmes</div>
+            <div id="wowslider-container0">
+                <div class="ws_images">
+                    <ul>
+                        <li><img src="data0/images/mercenarios.jpg" alt="chamado" title="chamado" id="wows0_0"/></li>
+                        <li><img src="data0/images/guerra.jpg" alt="godzilla" title="godzilla" id="wows0_1"/></li>
+                        <li><img src="data0/images/elysium.jpg" alt="ligaDaJustica" title="ligaDaJustica" id="wows0_2"/></li>
+                        <li><img src="data0/images/wow.jpg" alt="slider" title="peakeBlinders" id="wows0_3"/></li>
+                        <li><img src="data0/images/avengerUltimato.jpg" alt="vingadores" title="vingadores" id="wows0_4"/></li>
+                    </ul>
+                </div>
+                <div class="ws_shadow"></div>
+            </div>
+            <script type="text/javascript" src="engine0/wowslider.js"></script>
+            <script type="text/javascript" src="engine0/script.js"></script>
+            <!-- End WOWSlider.com HEAD section --> 
+        </section>
+        <!-- FILME NORMAL -->
+        <main>
+            <div id="titulo">
+                <h2 id="minhaLista">Minha lista</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Rock 2" alt="Após a luta contra Apollo Creed, Rocky promete à sua esposa largar os ringues. Mas os fãs de boxe insistem em uma revanche entre os dois pugilistas. Sem dinheiro, Rocky se vê obrigado a aceitar o desafio e recebe a benção da esposa para lutar. Agora o lutador deve se preparar para o combate do século e decide treinar intensamente, sonhando apenas em terminar a luta sem ser nocauteado pelo campeão." src="imgFilmes/rock2.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img name="Godzilla King of the Monsters" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/godzilla.jpg" alt="Membros da agência Monarch enfrentam monstros gigantescos, incluindo o poderoso Godzilla, que entra em choque com Mothra, Rodan e seu maior inimigo, King Ghidorah, o monstro de três cabeças. Essas antigas superespécies disputam a supremacia, deixando a própria existência da humanidade em risco.">
+                </figure>
+                <figure class="conteudo">
+                    <img name="Liga da Justiça" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/ligadajustica.jpg" alt="Impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman, Bruce Wayne convoca sua nova aliada Diana Prince para o combate contra um inimigo ainda maior, recém-despertado. Juntos, Batman e Mulher-Maravilha buscam e recrutam com agilidade um time de meta-humanos, mas mesmo com a formação da liga de heróis sem precedentes, poderá ser tarde demais para salvar o planeta de um catastrófico ataque.">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="O Homem que mudou o jogo" alt="Billy Beane, gerente geral do Oakland A's, um dia tem uma epifania: a sabedoria convencional do beisebol está totalmente errada. Diante de um orçamento apertado, Beane tenta reinventar seu time superando os clubes de bola mais ricos. Unindo forças com Peter Brand, graduado da Ivy League, Beane se prepara para desafiar as tradições da velha escola. Ele recruta jogadores de barganha que os olheiros rotularam como falhos, mas que têm potencial para vencer o jogo." src="imgFilmes/oHomemQueMudouOJogo.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img name="Os Vingadores" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/vingadores.jpg" alt="Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="popularNaFilmesflix">Popular na Filmeflix</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img name="47 Ronins" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/47roninPop.jpg" alt="Um grupo de samurais banidos deseja reaver sua honra a partir de uma vingança contra o traiçoeiro Lorde Kira, responsável pela morte do mestre deles. O mais incomodado do grupo é Kai, que passa a ser questionado ao se apaixonar pela filha do mestre.">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Batman O cavaleiro das trevas" alt="Com a ajuda de Jim Gordon e Harvey Dent, Batman tem mantido a ordem na cidade de Gotham. Mas um jovem e anárquico criminoso conhecido como Coringa ganha força e decide instaurar um verdadeiro caos na cidade. O justiceiro será testado psicologicamente e fisicamente como nunca fora antes em um confronto bastante pessoal. Cabe a Batman encontrar uma maneira de deter o sádico vilão antes que mais vidas sejam perdidas." src="imgFilmes/batman.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Cred 2" alt="Adonis enfrenta o maior desafio de sua vida: um inimigo que está ligado ao passado de sua família. Ao lado de Rocky Balboa, eles enfrentam o passado para descobrir pelo quê vale a pena lutar." src="imgFilmes/cred2.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Homem aranha 3" alt="O relacionamento entre Peter Parker e Mary Jane parece estar dando certo, mas outros problemas começam a surgir. A roupa de Homem-Aranha torna-se preta e acaba controlando Peter - apesar de aumentar seus poderes, ela revela e amplia o lado obscuro de sua personalidade. Com isso, os vilões Venom e Homem-Areia tentam destruir o herói." src="imgFilmes/homiAranha3.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img name="Liga da Justiça" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/ligadajustica.jpg" alt="Impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman, Bruce Wayne convoca sua nova aliada Diana Prince para o combate contra um inimigo ainda maior, recém-despertado. Juntos, Batman e Mulher-Maravilha buscam e recrutam com agilidade um time de meta-humanos, mas mesmo com a formação da liga de heróis sem precedentes, poderá ser tarde demais para salvar o planeta de um catastrófico ataque.">
+                </figure>
+            </div>
+            <!-- FILME DESTAQUES -->
+            <div id="titulo">
+                <h2 id="filmesEmDestaque">Filmes em destaque</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img src="imgFilmes/aViuva.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img src="imgFilmes/ligaDaDC.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img src="imgFilmes/lugarSilencioso.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img src="imgFilmes/tomEjerry.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img src="imgFilmes/malevola.jpg">
+                </figure>
+            </div>
+            <!-- FILME NORMAL -->
+            <div id="titulo">
+                <h2 id="emAlta">Em alta</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img name="Liga da Justiça" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/ligadajustica.jpg" alt="Impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman, Bruce Wayne convoca sua nova aliada Diana Prince para o combate contra um inimigo ainda maior, recém-despertado. Juntos, Batman e Mulher-Maravilha buscam e recrutam com agilidade um time de meta-humanos, mas mesmo com a formação da liga de heróis sem precedentes, poderá ser tarde demais para salvar o planeta de um catastrófico ataque.">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Homem aranha 3" alt="O relacionamento entre Peter Parker e Mary Jane parece estar dando certo, mas outros problemas começam a surgir. A roupa de Homem-Aranha torna-se preta e acaba controlando Peter - apesar de aumentar seus poderes, ela revela e amplia o lado obscuro de sua personalidade. Com isso, os vilões Venom e Homem-Areia tentam destruir o herói." src="imgFilmes/homiAranha3.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img name="Liga da Justiça" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/ligadajustica.jpg" alt="Impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman, Bruce Wayne convoca sua nova aliada Diana Prince para o combate contra um inimigo ainda maior, recém-despertado. Juntos, Batman e Mulher-Maravilha buscam e recrutam com agilidade um time de meta-humanos, mas mesmo com a formação da liga de heróis sem precedentes, poderá ser tarde demais para salvar o planeta de um catastrófico ataque.">
+                </figure>
+                <figure class="conteudo">
+                    <img name="Os Vingadores" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/vingadores.jpg" alt="Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Elysium" alt="No ano de 2154, os mais ricos vivem em uma estação espacial enquanto o resto da população mora em uma Terra arruinada. Um homem assume a missão de tentar trazer igualdade aos mundos polarizados." src="imgFilmes/elysium.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="filmesPremiados">Filmes premiados</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Tropa de Elite" alt="Nascimento, capitão da Tropa de Elite do Rio de Janeiro, é designado para chefiar uma das equipes que tem como missão apaziguar o Morro do Turano. Ele precisa cumprir as ordens enquanto procura por um substituto para ficar em seu lugar. Em meio a um tiroteio, Nascimento e sua equipe resgatam Neto e Matias, dois aspirantes a oficiais da PM. Ansiosos para entrar em ação e impressionados com a eficiência de seus salvadores, os dois se candidatam ao curso de formação da Tropa de Elite." src="imgFilmes/tropaDeElite.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Elysium" alt="No ano de 2154, os mais ricos vivem em uma estação espacial enquanto o resto da população mora em uma Terra arruinada. Um homem assume a missão de tentar trazer igualdade aos mundos polarizados." src="imgFilmes/elysium.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Os Mercenarios" alt="Um grupo de mercenários, liderado por Barney Ross e composto de seus homens de confiança, aceita uma missão que parece ser rotineira: uma operação secreta, a mando da Igreja, para invadir o país sul-americano de Vilena e derrubar seu ditador. Não demora muito para o grupo perceber que a missão é uma operação suicida. Presos em uma perigosa teia de traições, mas sabendo que um inocente está em perigo, Barney e seus homens decidem finalizar o trabalho." src="imgFilmes/mercenarios.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Word of WarCraft" alt="Em busca de uma nova terra para viver, os guerreiros Orc atravessam um portal e chegam até Azeroth, uma região pacífica que vira um campo de batalha pela sobrevivência de dois povos." src="imgFilmes/wow.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Rock 2" alt="Após a luta contra Apollo Creed, Rocky promete à sua esposa largar os ringues. Mas os fãs de boxe insistem em uma revanche entre os dois pugilistas. Sem dinheiro, Rocky se vê obrigado a aceitar o desafio e recebe a benção da esposa para lutar. Agora o lutador deve se preparar para o combate do século e decide treinar intensamente, sonhando apenas em terminar a luta sem ser nocauteado pelo campeão." src="imgFilmes/rock2.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="lancamentos">Lançamentos</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img name="Os Vingadores" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/avengerUltimato.jpg" alt="Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Tropa de Elite" alt="Nascimento, capitão da Tropa de Elite do Rio de Janeiro, é designado para chefiar uma das equipes que tem como missão apaziguar o Morro do Turano. Ele precisa cumprir as ordens enquanto procura por um substituto para ficar em seu lugar. Em meio a um tiroteio, Nascimento e sua equipe resgatam Neto e Matias, dois aspirantes a oficiais da PM. Ansiosos para entrar em ação e impressionados com a eficiência de seus salvadores, os dois se candidatam ao curso de formação da Tropa de Elite." src="imgFilmes/tropaDeElite.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="O Homem que mudou o jogo" alt="Billy Beane, gerente geral do Oakland A's, um dia tem uma epifania: a sabedoria convencional do beisebol está totalmente errada. Diante de um orçamento apertado, Beane tenta reinventar seu time superando os clubes de bola mais ricos. Unindo forças com Peter Brand, graduado da Ivy League, Beane se prepara para desafiar as tradições da velha escola. Ele recruta jogadores de barganha que os olheiros rotularam como falhos, mas que têm potencial para vencer o jogo." src="imgFilmes/oHomemQueMudouOJogo.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Cred 2" alt="Adonis enfrenta o maior desafio de sua vida: um inimigo que está ligado ao passado de sua família. Ao lado de Rocky Balboa, eles enfrentam o passado para descobrir pelo quê vale a pena lutar." src="imgFilmes/cred2.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Os Ultimos Cavaleiros" alt="Raiden é um guerreiro caído que deve enfrentar um corrupto e sádico governante para vingar seu mestre desonrado, Bartok." src="imgFilmes/ultimosCavalheiros.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="comedia">Comédia</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img name="O mentiroso" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/oMentirosoPop.jpg" alt="O inescrupuloso advogado de Los Angeles Fletcher Reede ama o filho Max, mas a sua incapacidade de manter promessas e as mentiras compulsivas que conta causam problemas entre os dois e a ex-mulher Audrey. Cansado das mentiras do pai, Max faz um desejo antes de soprar as velinhas do seu bolo de aniversário: ele quer que o pai só diga a verdade nas próximas 24 horas. Quando o pedido de Max se torna realidade, o mundo de Fletcher começa a se transformar em um caos.">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="As Branquelas" alt="Dois irmãos agentes do FBI, Marcus e Kevin Copeland, acidentalmente evitam que bandidos sejam presos em uma apreensão de drogas. Como castigo, eles são forçados a escoltar um par de socialites nos Hamptons. Porém, quando as meninas descobrem o plano da agência, se recusam a ir. Sem opções, Marcus e Kevin decidem posar como as irmãs, transformando-se de homens afro-americanos em um par de loiras." src="imgFilmes/asBranquelas.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Caiu a casa" alt="Peter, um advogado divorciado, se interessa por uma mulher na internet. Quando eles decidem sair, em vez de encontrar quem ele acha que será sua alma gêmea, ele conhece a extravagante Charlene, uma ex-presidiária que deseja limpar seu nome. Em meio às muitas complicações da relação, acaba surgindo uma grande amizade entre os dois." src="imgFilmes/caiuACasa.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Ted 2" alt="O urso de pelúcia Ted casa-se com Tami-Lynn. O casal pretende ter um bebê, mas para terem direito à inseminação artificial, Ted tem que provar na justiça que é um ser humano. Para alcançar o seu sonho, ele conta com a ajuda da advogada Samantha e do seu grande amigo John." src="imgFilmes/ted2.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Paul o Alien fugitivo" alt="Só que no meio do caminho eles encontraram Paul ( Seth Rogen), um alienígena que escapou da base militar e precisa encontrar sua nave mãe para retornar ao seu planeta em segurança. Começa então uma insana aventura do trio para escapar da garras do Agente Zoil (Jason Bateman) e seus asseclas." src="imgFilmes/paulOAlien.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="terror">Terror</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img name="O Chamado" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/chamado.jpg" alt="A jornalista Rachel Keller decide investigar a morte de sua sobrinha e descobre que quatro adolescentes morreram misteriosamente sete dias depois de assistir a um vídeo com imagens assustadoras. Agora ela tenta solucionar o mistério e impedir que a profecia se realize, já que ela e seu filho também assistiram ao vídeo.">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="It a Coisa" alt="Um grupo de crianças se une para investigar o misterioso desaparecimento de vários jovens em sua cidade. Eles descobrem que o culpado é Pennywise, um palhaço cruel que se alimenta de seus medos e cuja violência teve origem há vários séculos." src="imgFilmes/itACoisa.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Resident Evil" alt="Alice e Rain Ocampo têm a missão de destruir um laboratório genético operado pela poderosa corporação Umbrella, um dos maiores conglomerados do mundo, onde um vírus foi disseminado, matando seu criador e ressurgindo como uma criatura demoníaca, que sente uma fome incontrolável e transforma todas as suas vítimas em zumbis. O time tem apenas três horas para evitar que o vírus invada a Terra." src="imgFilmes/residentEvil.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Dragão Vermelho" alt="Para capturar um macabro assassino em série conhecido como a Fada dos Dentes, o ex-agente do FBI Will Graham vê-se obrigado a enfrentar um velho inimigo: Hannibal Lecter. Edward Norton contracena com Anthony Hopkins, que aqui regressa ao papel que já lhe merecera um Óscar: Hannibal Lecter. ..." src="imgFilmes/dragVermelho.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Invocãção do Mal" alt="Um dos casos mais sensacionais de seus arquivos, começa com uma luta pela alma de um garoto, depois os leva para além de tudo o que já haviam visto antes, para marcar a primeira vez na história dos Estados Unidos que um suspeito de assassinato alegar ter tido uma possessão demoníaca como defesa." src="imgFilmes/invocDoMal.jpg">
+                </figure>
+            </div>
+        </main>
+        <footer id="rodape">
+            <div id="redes_sociais">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.google.com/" target="_blank"><i class="fa fa-google fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.outlook.com/" target="_blank"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+            </div>
+            <p>
+                Copyright &copy; WebMaster 2020. Todos os direitos reservados.
+            </p>
+            <div id="links">
+                <div id="conteudo_esquerda">
+                    <p>
+                       Link's de nossos parceiros:
+                    </p>
+                    <p>
+                        <a href="https://www.netflix.com" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> https://www.netflix.com</a>
+                    </p>
+                    <p>
+                        <a href="https://globofilmes.globo.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> https://globofilmes.globo.com</a>
+                    </p>
+                </div>
+                <div>
+                    <a href="index.html"><img src="img/logo4.png"></a>
+                </div>
+                <div> 
+                    <p>
+                        Desenvolvido por: 
+                    </p>                   
+                    <p>
+                        <a href="https://github.com/CesarFabiano" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> Cesar Fabiano Santos da Silva</a>
+                    </p>
+                </div>
+            </div>
+        </footer> 
+        <div id="modal_filme" class="modal_filme">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span onclick="fecharModal();" id="close_filme" class="close">&times;</span>
+              <h2 id="tituloFilme"></h2>
+            </div>
+            <div class="modal-body">
+                <img src="" id="imgemFilme"/>
+            </div>
+            <div class="modal-footer">
+              <h3 id="DescricaoFilme"></h3>
+            </div>
+          </div>
+        </div>       
+    </body>
+</html>

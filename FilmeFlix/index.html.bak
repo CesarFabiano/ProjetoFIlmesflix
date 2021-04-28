@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Filmesflix</title>
+        <meta http-equiv="content-type" content="text/html"  charset="UTF-8">
+        <meta http-equiv="content-language" content="pt-br">
+        <meta name="author" content="Cesar Fabiano Santos da Silva">
+        <meta name="reply-to" content="cesar.fabiano.hu3@outlook.com    ">
+        <meta name="description" content="Filmes, s&eacute;ries e muito mais. Sem limites. Assista onde quiser. Cancele quando quiser. Pronto para assistir?">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link rel="stylesheet" href="css/estilo.css" type="text/css">
+        <link rel="icon" href="img/l.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+    
+    </head>
+    <body>
+        <header id="topo">
+            <figure id="logo"></figure>
+            <button id="btn_menu"><a href="#menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a></button>
+            <nav id="menu">
+                <a id="btn_fechar" href="#">X</a>
+                <ul>
+                    <a href="index.html"><li>Início</li></a>
+                    <a href="series.html"><li>Séries</li></a>
+                    <a href="filmes.html"><li>Filmes</li></a>
+                    <a href="destaques.html"><li>Destaques</li></a>
+                    <a href="minhaLista.html"><li>Minha lista</li></a>
+                </ul>
+            </nav>
+        </header> 
+        <section id="banner">
+            <div id="rodape_banner"></div>
+            <div id="wowslider-container0">
+                <div class="ws_images">
+                    <ul>
+                        <li><img src="data0/images/chamado.jpg" alt="chamado" title="chamado" id="wows0_0"/></li>
+                        <li><img src="data0/images/godzilla.jpg" alt="godzilla" title="godzilla" id="wows0_1"/></li>
+                        <li><img src="data0/images/ligadajustica.jpg" alt="ligaDaJustica" title="ligaDaJustica" id="wows0_2"/></li>
+                        <li><img src="data0/images/peakeblinders.jpg" alt="slider" title="peakeBlinders" id="wows0_3"/></li>
+                        <li><img src="data0/images/vingadores.jpg" alt="vingadores" title="vingadores" id="wows0_4"/></li>
+                    </ul>
+                </div>
+                <div class="ws_shadow"></div>
+            </div>
+            <script type="text/javascript" src="engine0/wowslider.js"></script>
+            <script type="text/javascript" src="engine0/script.js"></script>
+            <!-- End WOWSlider.com HEAD section --> 
+        </section>
+        <!-- FILME NORMAL -->
+        <main>
+            <div id="titulo">
+                <h2>Minha lista</h2>
+            </div>
+            <div id="corpo">
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/chamado.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/godzilla.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/ligadajustica.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/peakeblinders.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/vingadores.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2>Popular na Filmeflix</h2>
+            </div>
+            <div id="corpo">
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/47roninPop.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/jurasqueparquePop.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/oMentirosoPop.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/oPrimeiroHomiPop.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/shrekPop.jpg">
+                </figure>
+            </div>
+            <!-- FILME DESTAQUES -->
+            <div id="titulo">
+                <h2>Destaques da semana</h2>
+            </div>
+            <div id="corpo">
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/demonSDestaque.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/shrekDestaque.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/goosebumpsDestaque.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/hackerDestaque.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/jumanjiDestaque.jpg">
+                </figure>
+            </div>
+            <!-- FILME NORMAL -->
+            <div id="titulo">
+                <h2>Em alta</h2>
+            </div>
+            <div id="corpo">
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/batman.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/homiAranha3.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/suits.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/theFlash.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/twister.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2>Series premiadas</h2>
+            </div>
+            <div id="corpo">
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/theFlash.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/suits.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/twd.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/greisanatomi.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/modernfamili.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2>Filmes</h2>
+            </div>
+            <div id="corpo">
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/aMeninaEOLeao.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/kardec.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/cred2.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/rock2.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/ultimosCavalheiros.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2>Series</h2>
+            </div>
+            <div id="corpo">
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/peakeblinders.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/greisanatomi.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/theFlash.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/suits.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/twd.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2>Documentarios</h2>
+            </div>
+            <div id="corpo">
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/oUniverso.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/tempoDoTempo.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/maconaria.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/guerrasDoBrasil.jpg">
+                </figure>
+                <figure id="conteudo1" class="conteudo">
+                    <img src="imgFilmes/serialkiller.jpg">
+                </figure>
+            </div>
+        </main>
+        <footer id="rodape">
+            <div id="redes_sociais">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.google.com/" target="_blank"><i class="fa fa-google fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.outlook.com/" target="_blank"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+            </div>
+            <p>
+                Copyright &copy; WebMaster 2020. Todos os direitos reservados.
+            </p>
+            <div id="links">
+                <p>
+                   Link's de nossos parceiros:
+                </p>
+                <p>
+                    <a href="https://www.netflix.com" target="_blank">https://www.netflix.com</a>
+                </p>
+                <p>
+                    <a href="https://globofilmes.globo.com/" target="_blank">https://globofilmes.globo.com</a>
+                </p>
+            </div>
+        </footer> 
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Modal Header</h2>
+            </div>
+            <div class="modal-body">
+                <figure id="" class="">
+                    <img src="imgFilmes/goosebumpsDestaque.jpg">
+                </figure>
+            </div>
+            <div class="modal-footer">
+              <h3>Modal Footer</h3>
+            </div>
+          </div>
+
+        </div>   
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal 
+            // btn.onclick = function() {
+            //   modal.style.display = "block";
+            // }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+        </script>    
+    </body>
+</html>

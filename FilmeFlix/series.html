@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Filmesflix</title>
+        <meta http-equiv="content-type" content="text/html"  charset="UTF-8">
+        <meta http-equiv="content-language" content="pt-br">
+        <meta name="author" content="Cesar Fabiano Santos da Silva">
+        <meta name="reply-to" content="cesar.fabiano.hu3@outlook.com    ">
+        <meta name="description" content="Filmes, s&eacute;ries e muito mais. Sem limites. Assista onde quiser. Cancele quando quiser. Pronto para assistir?">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link rel="stylesheet" href="css/estilo.css" type="text/css">
+        <link rel="icon" href="img/l.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    
+    </head>
+    <body>
+        <header id="topo">
+            <a href="index.html"><figure id="logo"></figure></a>
+            <button id="btn_menu"><a href="#menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a></button>
+            <nav id="menu">
+                <a id="btn_fechar" href="#">X</a>
+                <ul>
+                    <a href="index.html"><li>Início</li></a>
+                    <a href="series.html"><li>Séries</li></a>
+                    <a href="filmes.html"><li>Filmes</li></a>
+                    <a href="destaques.html"><li>Destaques</li></a>
+                    <a href="minhaLista.html"><li>Minha lista</li></a>
+                </ul>
+            </nav>
+            <nav id="menu_acesso_rapido">
+                <a id="btn_fechar" href="#">X</a>
+                <ul>
+                    <a href="#minhaLista"><li>Minha lista</li></a>
+                    <a href="#popularNaFilmesflix"><li>Popular na Filmeflix</li></a>
+                    <a href="#seriesEmDestaque"><li>Séries em destaque</li></a>
+                    <a href="#emAlta"><li>Em alta</li></a>
+                    <a href="#seriesPremiadas"><li>Séries premiadas</li></a>
+                    <a href="#lancamentos"><li>Lançamentos</li></a>
+                    <a href="#terror"><li>Terror</li></a>
+                    <a href="#comedia"><li>Comédia</li></a>
+                </ul>
+            </nav>
+        </header> 
+        <section id="banner">
+            <div id="rodape_banner">Séries</div>
+            <div id="wowslider-container0">
+                <div class="ws_images">
+                    <ul>
+                        <li><img src="data0/images/theboys.jpg" alt="chamado" title="chamado" id="wows0_0"/></li>
+                        <li><img src="data0/images/the100.jpg" alt="godzilla" title="godzilla" id="wows0_1"/></li>
+                        <li><img src="data0/images/thebruxa.jpg" alt="ligaDaJustica" title="ligaDaJustica" id="wows0_2"/></li>
+                        <li><img src="data0/images/peakeblinders.jpg" alt="slider" title="peakeBlinders" id="wows0_3"/></li>
+                        <li><img src="data0/images/dark.jpg" alt="vingadores" title="vingadores" id="wows0_4"/></li>
+                    </ul>
+                </div>
+                <div class="ws_shadow"></div>
+            </div>
+            <script type="text/javascript" src="engine0/wowslider.js"></script>
+            <script type="text/javascript" src="engine0/script.js"></script>
+            <!-- End WOWSlider.com HEAD section --> 
+        </section>
+        <!-- FILME NORMAL -->
+        <main>
+            <div id="titulo">
+                <h2 id="minhaLista">Minha lista</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Grey's Anatomy" alt="Com narração da médica Meredith Grey (Ellen Pompeo), o drama hospitalar apresenta a vida profissional e pessoal de cirurgiões e estagiários de um hospital na cidade de Seattle. ... A série é uma das mais vistas da TV dos EUA e tem a assinatura de Shonda Rhimes, a rainha do drama." src="imgFilmes/greisanatomi.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="The Flash" alt="Após testemunhar o estranho assassinato de sua mãe e a injusta acusação de seu pai pelo crime, Barry Allen fica sob os cuidados do detetive Joe West e sua filha Iris West. ... E então, associado por alguns amigos próximos que guardam seu segredo, Barry adquire uma nova personalidade conhecida como Flash." src="imgFilmes/theFlash.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Suits" alt="Suits se passa em um escritório de advocacia fictício na cidade de Nova Iorque. A série foca nos personagens Mike Ross, interpretado por Patrick J. Adams, que inicialmente trabalha como associado legal para Harvey Specter, interpretado por Gabriel Macht, apesar de Mike nunca ter frequentado a faculdade de direito." src="imgFilmes/suits.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img name="Peaky Blinders" id="telaFilme" onclick="abrirModal(this.src, this.alt, this.name);" src="imgFilmes/peakeblinders.jpg" alt="Os Peaky Blinders são uma organização criminosa de origem cigana que se passa na cidade de Birmingham, Inglaterra, em 1919, formada vários meses após o final da Primeira Guerra Mundial (1914–1918). A história é centrada na ambição do líder da gangue inglesa, Thomas 'Tommy' Shelby (Cillian Murphy).">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="O Universo" alt="Efeitos de computação gráfica de ponta mostram o nosso sistema solar, mundos alienígenas e galáxias distantes conforme os mistérios do universo são explorados." src="imgFilmes/oUniverso.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="popularNaFilmesflix">Popular na Filmeflix</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Guerra do Brasil" alt="Esta série documental detalha como o Brasil foi formado por séculos de conflito armado, desde os primeiros conquistadores até a violência nos dias de hoje." src="imgFilmes/guerrasDoBrasil.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="The Walking Dead" alt="Baseada em uma HQ, The Walking Dead conta a história de um grupo de sobreviventes, liderados pelo xerife Rick Grimes (Andrew Lincoln), após um apocalipse zumbi. Toda a população da Terra é infectada por um vírus misterioso que transforma os mortos em zumbis." src="imgFilmes/twd.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Peaky Blinders" alt="Os Peaky Blinders são uma organização criminosa de origem cigana que se passa na cidade de Birmingham, Inglaterra, em 1919, formada vários meses após o final da Primeira Guerra Mundial (1914–1918). A história é centrada na ambição do líder da gangue inglesa, Thomas 'Tommy' Shelby (Cillian Murphy)." src="imgFilmes/peakeblinders.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Maçonaria" alt="Maçonaria consiste em organizações fraternas que remontam às fraternidades locais de pedreiros que, a partir do final do século XIV, regulamentavam as qualificações de sua profissão e sua interação com autoridades e clientes." src="imgFilmes/maconaria.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Suits" alt="Suits se passa em um escritório de advocacia fictício na cidade de Nova Iorque. A série foca nos personagens Mike Ross, interpretado por Patrick J. Adams, que inicialmente trabalha como associado legal para Harvey Specter, interpretado por Gabriel Macht, apesar de Mike nunca ter frequentado a faculdade de direito." src="imgFilmes/suits.jpg">
+                </figure>
+            </div>
+            <!-- FILME DESTAQUES -->
+            <div id="titulo">
+                <h2 id="seriesEmDestaque">Séries em destaque</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img src="imgFilmes/got.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img src="imgFilmes/unfortunate.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img src="imgFilmes/riverdale.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img src="imgFilmes/pb.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img src="imgFilmes/ozark.jpg">
+                </figure>
+            </div>
+            <!-- FILME NORMAL -->
+            <div id="titulo">
+                <h2 id="emAlta">Em alta</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Peaky Blinders" alt="Os Peaky Blinders são uma organização criminosa de origem cigana que se passa na cidade de Birmingham, Inglaterra, em 1919, formada vários meses após o final da Primeira Guerra Mundial (1914–1918). A história é centrada na ambição do líder da gangue inglesa, Thomas 'Tommy' Shelby (Cillian Murphy)." src="imgFilmes/peakeblinders.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="O Universo" alt="Efeitos de computação gráfica de ponta mostram o nosso sistema solar, mundos alienígenas e galáxias distantes conforme os mistérios do universo são explorados." src="imgFilmes/oUniverso.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Suits" alt="Suits se passa em um escritório de advocacia fictício na cidade de Nova Iorque. A série foca nos personagens Mike Ross, interpretado por Patrick J. Adams, que inicialmente trabalha como associado legal para Harvey Specter, interpretado por Gabriel Macht, apesar de Mike nunca ter frequentado a faculdade de direito." src="imgFilmes/suits.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="The Flash" alt="Após testemunhar o estranho assassinato de sua mãe e a injusta acusação de seu pai pelo crime, Barry Allen fica sob os cuidados do detetive Joe West e sua filha Iris West. ... E então, associado por alguns amigos próximos que guardam seu segredo, Barry adquire uma nova personalidade conhecida como Flash." src="imgFilmes/theFlash.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Twister" alt="Enquanto a tempestade mais devastadora das últimas décadas se aproxima, a professora universitária Jo Harding e uma equipe de alunos com poucos recursos preparam o protótipo de Dorothy, um dispositivo inovador que coleta de dados de tornados, criado por seu ex-marido Bill. Quando Harding diz a Bill que Dorothy está pronto para testes, e que seu rival Jonas Miller roubou sua ideia, Bill se junta à equipe para uma última missão na busca de tornados." src="imgFilmes/twister.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="seriesPremiadas">Series premiadas</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="The Flash" alt="Após testemunhar o estranho assassinato de sua mãe e a injusta acusação de seu pai pelo crime, Barry Allen fica sob os cuidados do detetive Joe West e sua filha Iris West. ... E então, associado por alguns amigos próximos que guardam seu segredo, Barry adquire uma nova personalidade conhecida como Flash." src="imgFilmes/theFlash.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Suits" alt="Suits se passa em um escritório de advocacia fictício na cidade de Nova Iorque. A série foca nos personagens Mike Ross, interpretado por Patrick J. Adams, que inicialmente trabalha como associado legal para Harvey Specter, interpretado por Gabriel Macht, apesar de Mike nunca ter frequentado a faculdade de direito." src="imgFilmes/suits.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="The Walking Dead" alt="Baseada em uma HQ, The Walking Dead conta a história de um grupo de sobreviventes, liderados pelo xerife Rick Grimes (Andrew Lincoln), após um apocalipse zumbi. Toda a população da Terra é infectada por um vírus misterioso que transforma os mortos em zumbis." src="imgFilmes/twd.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="The Walking Dead" alt="Baseada em uma HQ, The Walking Dead conta a história de um grupo de sobreviventes, liderados pelo xerife Rick Grimes (Andrew Lincoln), após um apocalipse zumbi. Toda a população da Terra é infectada por um vírus misterioso que transforma os mortos em zumbis." src="imgFilmes/twd.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Modern Family" alt="Jay Pritchett (Ed O'Neill) é um homem mais velho que se casa com a latina Glória (Sofía Vergara), muitos anos mais nova que ele. Os dois moram com o filho dela, Manny (Rico Rodriguez), e convivem diariamente com os filhos do primeiro casamento de Jay: Caire (Julie Bowen) e Mitchell (Jesse Tyler Ferguson)." src="imgFilmes/modernfamili.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="lancamentos">Lançamentos</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Dark" alt="Em 2019, o desaparecimento de um menino gera medo entre os moradores de Winden, uma pequena cidade alemã com uma história estranha e trágica." src="imgFilmes/dark.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Peaky Blinders" alt="Os Peaky Blinders são uma organização criminosa de origem cigana que se passa na cidade de Birmingham, Inglaterra, em 1919, formada vários meses após o final da Primeira Guerra Mundial (1914–1918). A história é centrada na ambição do líder da gangue inglesa, Thomas 'Tommy' Shelby (Cillian Murphy)." src="imgFilmes/peakeblinders.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Serial Killer" alt="Quando um médico é preso por uma série de assassinatos chocantes, sua esposa decide cometer um crime semelhante para provar que ele é inocente. Assista o quanto quiser. Jacqueline Fernandez, Manoj Bajpayee e Mohit Raina estrelam este thriller do roteirista e diretor Shirish Kunder." src="imgFilmes/serialkiller.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Tempo do Tempo" alt="Vivemos um tempo diferente. Corremos sempre, corremos sem motivo, corremos por nada. Como se o tempo tivesse ficado mais rápido. Tudo sugere velocidade, urgência. Mas afinal de contas, por que o tempo parece tão curto? O foco principal de 'Quanto Tempo o Tempo Tem' é a questão do tempo e da falta dele no mundo contemporâneo. A diretora do documentário faz uma profunda reflexão sobre tempo, civilização e o futuro da existência." src="imgFilmes/tempoDoTempo.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Modern Family" alt="Jay Pritchett (Ed O'Neill) é um homem mais velho que se casa com a latina Glória (Sofía Vergara), muitos anos mais nova que ele. Os dois moram com o filho dela, Manny (Rico Rodriguez), e convivem diariamente com os filhos do primeiro casamento de Jay: Caire (Julie Bowen) e Mitchell (Jesse Tyler Ferguson)." src="imgFilmes/modernfamili.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="terror">Terror</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Ash Evil Dead" alt="Trinta anos depois de suas caças a monstros e demônios, Ash (Bruce Campbell) está de volta evitando qualquer tipo de responsabilidades com a segurança ao seu redor e qualquer ligação com Evil Dead. Contudo, uma praga chega para ameaçar a humanidade, e Ash é forçado a voltar a enfrentar seus demônios." src="imgFilmes/ashevildead.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="The Walking Dead" alt="Baseada em uma HQ, The Walking Dead conta a história de um grupo de sobreviventes, liderados pelo xerife Rick Grimes (Andrew Lincoln), após um apocalipse zumbi. Toda a população da Terra é infectada por um vírus misterioso que transforma os mortos em zumbis." src="imgFilmes/twd.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Parasite" alt="Toda a família de Ki-taek está desempregada, vivendo em um porão sujo e apertado, mas uma obra do acaso faz com que ele comece a dar aulas de inglês a uma garota de família rica. Fascinados com a vida luxuosa destas pessoas, pai, mãe e filhos bolam um plano para se infiltrarem também na família burguesa, um a um. No entanto, os segredos e mentiras necessários à ascensão social custam caro a todos." src="imgFilmes/parasite.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Z Nation" alt="Z Nation começa três anos em um apocalipse zumbi causado por vírus, que já matou a maioria dos humanos. ... Ele é o único sobrevivente conhecido de uma mordida de zumbi que não se transformou em zumbi e seu sangue contém anticorpos que são a última e melhor esperança da humanidade para uma vacina." src="imgFilmes/znation.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="The 100" alt="A série se passa 97 anos após uma guerra nuclear devastadora que dizimou quase toda a vida na Terra. Os sobreviventes conhecidos são os moradores de doze estações espaciais em órbita da Terra, que já viviam nesta antes do fim da guerra. ... Os 100 jovens enviados encontram vários sobreviventes da guerra nuclear." src="imgFilmes/the100.jpg">
+                </figure>
+            </div>
+            <div id="titulo">
+                <h2 id="comedia">Comédia</h2>
+            </div>
+            <div id="corpo">
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Suits" alt="Suits se passa em um escritório de advocacia fictício na cidade de Nova Iorque. A série foca nos personagens Mike Ross, interpretado por Patrick J. Adams, que inicialmente trabalha como associado legal para Harvey Specter, interpretado por Gabriel Macht, apesar de Mike nunca ter frequentado a faculdade de direito." src="imgFilmes/suits.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Brooklyn 99" alt="A série gira em torno de Jake Peralta (Andy Samberg), um imaturo, mas talentoso, detetive da polícia de Nova York na fictícia 99. ª Delegacia do Brooklyn, que muitas vezes entra em conflito com seu novo comandante, o sério e severo capitão Raymond Holt (Andre Braugher)." src="imgFilmes/brooklinnine.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Clarencio" alt="A série mostra a vida de Clarêncio, um garoto muito otimista que gosta de tudo, aconteça o que acontecer. Ele está sempre de bem com a vida, para ele tudo é incrível. Ele é amigo de um garoto com a cabeça quadrada, chamado Jeff. Ele tem germofobia, é totalmente organizado e segue uma rotina todo dia." src="imgFilmes/clarencio.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Adventure Time" alt="A série segue as aventuras de Finn, o Humano e o seu melhor amigo e irmão adotivo Jake, o Cão; que se aventuram na Terra de Ooo, num futuro pós-apocalíptico por volta de mil anos após a 'Grande Guerra dos Cogumelos', sendo Finn presumidamente o último humano existente." src="imgFilmes/adventuretime.jpg">
+                </figure>
+                <figure class="conteudo">
+                    <img onclick="abrirModal(this.src, this.alt, this.name);" name="Communit" alt="Esta é uma série sobre um grupo de desajustados que estudam no Greendale Community College. O líder do grupo é Jeff Winger, um advogado bom de lábia que perdeu sua licença. Com a ajuda de seus colegas, Winger forma um grupo de estudos que, juntos, descobrem mais sobre si mesmos do que sobre os estudos." src="imgFilmes/communit.jpg">
+                </figure>
+            </div>
+        </main>
+        <footer id="rodape">
+            <div id="redes_sociais">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.google.com/" target="_blank"><i class="fa fa-google fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+                <a href="https://www.outlook.com/" target="_blank"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+            </div>
+            <p>
+                Copyright &copy; WebMaster 2020. Todos os direitos reservados.
+            </p>
+            <div id="links">
+                <div id="conteudo_esquerda">
+                    <p>
+                       Link's de nossos parceiros:
+                    </p>
+                    <p>
+                        <a href="https://www.netflix.com" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> https://www.netflix.com</a>
+                    </p>
+                    <p>
+                        <a href="https://globofilmes.globo.com/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> https://globofilmes.globo.com</a>
+                    </p>
+                </div>
+                <div>
+                    <a href="index.html"><img src="img/logo4.png"></a>
+                </div>
+                <div> 
+                    <p>
+                        Desenvolvido por: 
+                    </p>                   
+                    <p>
+                        <a href="https://github.com/CesarFabiano" target="_blank"><i class="fa fa-link" aria-hidden="true"></i> Cesar Fabiano Santos da Silva</a>
+                    </p>
+                </div>
+            </div>
+        </footer>  
+        <div id="modal_filme" class="modal_filme">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span onclick="fecharModal();" id="close_filme" class="close">&times;</span>
+              <h2 id="tituloFilme"></h2>
+            </div>
+            <div class="modal-body">
+                <img src="" id="imgemFilme"/>
+            </div>
+            <div class="modal-footer">
+              <h3 id="DescricaoFilme"></h3>
+            </div>
+          </div>
+        </div>      
+    </body>
+</html>
