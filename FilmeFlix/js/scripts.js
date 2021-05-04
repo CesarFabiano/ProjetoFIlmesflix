@@ -39,6 +39,8 @@ function abrirModal(src, alt, name) {
     DescricaoFilme.innerHTML = alt;
     tituloFilme.innerHTML = name;
     imgemFilme.src = src; 
+    imgemFilme.alt = alt;
+    imgemFilme.name = name;
     
     // Get the modal
     var modal_filme = document.getElementById("modal_filme");
@@ -51,32 +53,10 @@ function abrirModal(src, alt, name) {
 }
 
 function fecharModal() {
-    // Get the <span> element that closes the modal
     var modal_filme = document.getElementById("modal_filme").style.display = "none";
 }
 
-function verFilme(src) {
-    window.location = "ProjFinal/FilmeFlix/telaFilme.html?imagemMovie="+src;
-
-    document.getElementById('filmeMovie').poster = src;
+function verFilme(src, alt, name) {
+    window.location = "telaFilme.html?src="+src+"&alt="+alt+"&name="+name;
 }
 
-function queryString(parameter) {  
-      var loc = location.search.substring(1, location.search.length);   
-      var param_value = false;   
-      var params = loc.split("&");   
-      for (i=0; i<params.length;i++) {   
-          param_name = params[i].substring(0,params[i].indexOf('='));   
-          if (param_name == parameter) {                                          
-              param_value = params[i].substring(params[i].indexOf('=')+1)   
-          }   
-      }   
-      if (param_value) {   
-          return param_value;   
-      }   
-      else {   
-          return undefined;   
-      }   
-}
-
-var variavel = queryString("minhaVariavel");

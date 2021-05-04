@@ -18,16 +18,51 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-        <script type="text/javascript" src="js/scripts.js"></script>    
+        <script type="text/javascript" src="js/scripts.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>   
     </head>
     <body id="tela_login">            
+        <div id="div-filme">
         <header id="topo">
             <a href=""><figure id="logo"></figure></a>
         </header> 
-        <div id="principal">
-            <video id="filmeMovie" width="100%" height="689" poster="imgFilmes/elysium.jpg" controls style="margin-top: 100px;">
+            <video id="filmeMovie" poster="" controls>
                 <source src="video/universalIntro.mp4" type="video/mp4">
             </video>
         </div>
+        <script>
+            $(document).ready(function(){
+                //peguei essa função do google 
+                function queryString(parameter) {  
+                    var loc = location.search.substring(1, location.search.length);   
+                    var param_value = false;   
+                    var params = loc.split("&");   
+                    for (i=0; i<params.length;i++) {   
+                        param_name = params[i].substring(0,params[i].indexOf('='));   
+                        if (param_name == parameter) {                                          
+                            param_value = params[i].substring(params[i].indexOf('=')+1)   
+                        }   
+                    }   
+                    if (param_value) {   
+                        return param_value;   
+                    }   
+                    else {   
+                        return undefined;   
+                    }                    
+                }
+                //pega os valores passados pelo link
+                var src = queryString("src");
+                var alt = queryString("alt");
+                var name = queryString("name");
+
+                //chama a função para monsta a tela do filme de acordo com os valores passados
+                montaTelaDoFilme();
+                //função que mota a tela do filme
+                function montaTelaDoFilme() {
+                    document.getElementById('filmeMovie').setAttribute('poster', src);
+                    var titulo = name.replace("%20", " ");
+                } 
+            }); 
+        </script>
     </body>
 </html>    
