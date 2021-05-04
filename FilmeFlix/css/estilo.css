@@ -464,6 +464,43 @@ main #titulo{
     background-color: #141414;
     color: white;
 }
+.modal-body #assistir_filme {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0% 2%;
+}
+.modal-body #assistir_filme a i{
+    font-size: 1.2em;
+}
+.modal-body #assistir_filme a{
+    padding: 1% 1%;
+    float: left;
+    font-size: 0.9em;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+}
+.modal-body #assistir_filme a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #d81f26;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.modal-body #assistir_filme a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
 @media screen and (min-width:400px){
 
     #logo{
