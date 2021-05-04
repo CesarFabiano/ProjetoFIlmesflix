@@ -261,9 +261,12 @@
               <h2 id="tituloFilme"></h2>
             </div>
             <div class="modal-body">
-                <img onclick="verFilme(this.src, this.alt, this.name);" src="" alt="" name="" id="imgemFilme"/>
+                <img src="" alt="" name="" id="imgemFilme"/>
                 <div id="assistir_filme">                    
-                    <a href=""><i class="fa fa-play" aria-hidden="true"></i> Assistir filme</a>
+                    <div  onclick="verFilme(imgemFilme.src, imgemFilme.alt, imgemFilme.name);" id="btn-assistir_filme">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                         Assistir filme
+                    </div>
                 </div>
             </div>
             <div class="modal-footer">

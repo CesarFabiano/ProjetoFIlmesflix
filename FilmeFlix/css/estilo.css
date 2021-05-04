@@ -475,10 +475,10 @@ video{
     align-items: center;
     padding: 0% 2%;
 }
-.modal-body #assistir_filme a i{
+.modal-body #assistir_filme #btn-assistir_filme i{
     font-size: 1.2em;
 }
-.modal-body #assistir_filme a{
+.modal-body #assistir_filme #btn-assistir_filme{
     padding: 1% 1%;
     float: left;
     font-size: 0.9em;
@@ -486,8 +486,9 @@ video{
     text-decoration: none;
     position: relative;
     font-weight: bold;
+    cursor: pointer;
 }
-.modal-body #assistir_filme a:before {
+.modal-body #assistir_filme #btn-assistir_filme:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -501,7 +502,7 @@ video{
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-.modal-body #assistir_filme a:hover:before {
+.modal-body #assistir_filme #btn-assistir_filme:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

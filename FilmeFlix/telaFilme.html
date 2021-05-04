@@ -32,6 +32,11 @@
         </div>
         <script>
             $(document).ready(function(){
+                setTimeout(
+                    function(){ 
+                        document.getElementById('filmeMovie').play();  
+                    },2000
+                );
                 //peguei essa função do google 
                 function queryString(parameter) {  
                     var loc = location.search.substring(1, location.search.length);   
@@ -50,6 +55,7 @@
                         return undefined;   
                     }                    
                 }
+                document.addEventListener('contextmenu', event => event.preventDefault());
                 //pega os valores passados pelo link
                 var src = queryString("src");
                 var alt = queryString("alt");
@@ -61,6 +67,7 @@
                 function montaTelaDoFilme() {
                     document.getElementById('filmeMovie').setAttribute('poster', src);
                     var titulo = name.replace("%20", " ");
+                    document.getElementById('filmeMovie').disablePictureInPicture = true
                 } 
             }); 
         </script>
